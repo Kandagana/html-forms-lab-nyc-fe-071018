@@ -13,17 +13,17 @@
     <!-- First, create a form tag where our inputs will be nested -->
     <form action="http://some-url.com" method="POST">
     <!-- Add a label for 'fullname'-->
-    <label form="fullname" full Name:></label>
+    <label for="fullname" full Name:></label>
      <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
     <input type="text" id="fullname" placeholder="Enter Name" required> 
   <!-- Add a label for 'email'-->
-  <label form="email" email></label>
+  <label for="email" email></label>
   <input type="email" id="email" placeholder="Enter Email" required>
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
-      <label form="Phone" Phone:></label>
+      <label for="Phone" Phone:></label>
       <input type="telephone" id="phone" placeholder="Enter Telephone (optional)">
 
 
@@ -31,9 +31,11 @@
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-      <label form="message"> message:</label>
+      <label for="message"> message:</label>
       <textarea id="message" name="message" placeholder="Enter Message"></textarea>
       <h3>checkbox</h3>
+      <label for="checkbox" checkbox></label>
+      <input type="checkbox" id="checkbox">
       <input type="submit" id="checkbox">
       </form>
       </html>
